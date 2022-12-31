@@ -1,17 +1,23 @@
 How To Run:
 ```
-open root project directory via terminal
+1.install node.js v19 https://nodejs.org/en/download/current/
+2.open root project directory via terminal
 run:
 
 docker-compose up
-npm run build
-npm run start
+
+3.open root project directory via another terminal
+run:
+
+4.npm install
+5.npm run build
+6.npm run start
 
 ```
 
 api:
 
-`localhost:3501/input`
+`localhost:7777/input`
  
 ```
 request:
@@ -41,7 +47,7 @@ response:
 ```
 
 
-`localhost:3501/output/${ticketNumber}`
+`localhost:7777/output/${ticketNumber}`
 ```
 response:
 {
